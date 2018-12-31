@@ -11,6 +11,6 @@ namespace POC.Views
         public AboutPage()
         {
             InitializeComponent();
-        }
+                   }
     }
 }
