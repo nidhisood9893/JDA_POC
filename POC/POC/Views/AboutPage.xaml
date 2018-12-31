@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="POC.Views.AboutPage"
              xmlns:vm="clr-namespace:POC.ViewModels"
-             Title="{Binding Title}">
+             Title="{Binding Title}"
+             >
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
     </ContentPage.BindingContext>
